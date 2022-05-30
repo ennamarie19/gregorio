@@ -1,0 +1,8 @@
+image: ghcr.io/ennamarie19/gregorio-fuzz:latest
+project: gregorio
+target: gregorio-fuzz
+tests:
+    - file://corpus
+
+cmds:
+    - cmd: /gregorio --stdin --stdout
